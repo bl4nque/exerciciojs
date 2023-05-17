@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+    background-image: url(https://img.freepik.com/vector-premium/patron-fisuras-calculadora-utiles-escolares_275421-137.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+h1 {
+    margin-top: 10%;
+    margin-bottom: 65px;
+}
+
+p {
+    width: 50%;
+    text-align: center;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form input{
+    padding: 10px;
+    width: 400px;
+    height: 55px;
+    margin: 10px auto;
+    border: 2px solid black;
+    border-style:dotted;
+}
+
+form button {
+    background: linear-gradient(#fff, #000);
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 33px;
+    border: none;
+}
+
+button:hover {
+    background: linear-gradient(#000, #fff);
+    border: 3px solid #ccc;
+}
+
