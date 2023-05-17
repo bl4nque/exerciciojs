@@ -25,7 +25,7 @@ h1 {
     margin-bottom: 65px;
 }
 
-p {
+#sub {
     width: 50%;
     text-align: center;
 }
@@ -59,3 +59,9 @@ button:hover {
     border: 3px solid #ccc;
 }
 
+#recebe {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+}

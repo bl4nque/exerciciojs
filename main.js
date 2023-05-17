@@ -13,14 +13,17 @@ function verificaNum() {
     
     const numeroA = + document.getElementById('n1').value
     const numeroB = + document.getElementById('n2').value
-
+    const atualizaP = document.getElementById('recebe')
+    
     if(numeroA > numeroB){
-        alert(`Você digitou ${numeroA} no primeiro campo, ele é maior que ${numeroB} que foi digitado no segundo campo`)
-    } else if(numeroA < numeroB){
-        alert(`Você digitou ${numeroA} no primeiro campo, ele é menor que ${numeroB} que foi digitado no segundo campo`)
-    } else{
-        alert(`Voce digitou dois numeros iguais!`)
-    }
+        atualizaP.innerHTML = 'O primeiro valor é maior que o segundo'
+    } else if(numeroB > numeroA) {
+        atualizaP.innerHTML = 'O segundo valor é maior que o primeiro'
+    } else {
+        atualizaP.innerHTML = 'Os valores são iguais'
+    };
+        
+
 }
 
 function resetaValor () {
