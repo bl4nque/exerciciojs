@@ -16,13 +16,13 @@ function verificaNum() {
     const atualizaP = document.getElementById('recebe')
     
     if(numeroA > numeroB){
-        atualizaP.innerHTML = 'O primeiro valor é maior que o segundo'
+        atualizaP.innerHTML = `O primeiro valor que você digitou foi: ${numeroA}, ele é maior que o segundo valor: ${numeroB}`
     } else if(numeroB > numeroA) {
-        atualizaP.innerHTML = 'O segundo valor é maior que o primeiro'
+        atualizaP.innerHTML = `O primeiro valor que você digitou foi: ${numeroA}, ele é menor que o segundo valor: ${numeroB}`
     } else {
         atualizaP.innerHTML = 'Os valores são iguais'
     };
-        
+    
 
 }
 
